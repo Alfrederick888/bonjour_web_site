@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bronze.apps.BronzeConfig',
     'telebot.apps.TelebotConfig',
     'price.apps.PriceConfig',
     'cms.apps.CmsConfig',
